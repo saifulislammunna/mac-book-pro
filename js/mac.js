@@ -19,6 +19,8 @@ function calculateTotal(){
     const totalPrice = bestPriceCost + extraMemoryCost + extraStorageCost + deliveryChargeCost;  
     //  update on html
     document.getElementById('total-price').innerText = totalPrice;
+    //  bonus part
+    document.getElementById('total-price-bottom').innerText = totalPrice;
 }
 
    
