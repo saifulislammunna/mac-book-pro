@@ -5,8 +5,7 @@
     // calling calculate total
     calculateTotal();
 }
- 
- 
+
  // function for calculate total 
 
 function calculateTotal(){
@@ -23,7 +22,20 @@ function calculateTotal(){
     document.getElementById('total-price-bottom').innerText = totalPrice;
 }
 
+// bonus part
+
+function verifyPin(){
+    let total = document.getElementById('total-price-bottom').innerText;
+     
+    const pin =  'stevekaku';
+    const typedPin = document.getElementById('typed-pin').innerText;
+    if(pin.innerText != typedPin){
+    const changedTotal = total - total/5 ;
+     // update on html 
+     document.getElementById('total-price-bottom').innerText = changedTotal;
+    }  
    
+}    
 
 // handling memory extra cost with event-handler 
 document.getElementById('memory-8gb').addEventListener('click',function( ){
@@ -62,5 +74,7 @@ document.getElementById('fast-delivery').addEventListener('click',function(){
     updateProductCost('delivery-charge',20);
      
 });
+
+ 
 
  
