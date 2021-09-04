@@ -1,127 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mac Book Pro</title>
-      <!-- bootstrap stylesheet -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-      <!-- custom styles -->
-      <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- custom styles -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <main>
-       <section class="container-fluid">
-        <div class="d-flex">
-            <div class="col-lg-6 px-2 py-3" >
-                <img src="images/mac.png" class="d-block w-100" alt="">
-            </div>
-            <div class="col-lg-6 px-2 py-3 ">
-                <h1 class="pb-2">
-                    Customize your Blue 24-inch iMac with Apple M1 chip 
-                </h1>
-                <p class="pb-5">
-                    Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7 - core GPU , and 16 core Neutral Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports Magic Mouse Magic Keyboard - US English
-                </p>
-                <div class="pb-5">
-                    <h3>Memory</h3>
-                    <div>
-                        <button id="memory-8gb"  class="border border-1" type="button" class="btn btn-white btn-lg">8GB unified memory</button>
-                        <button id="memory-16gb"  class="border border-1" type="button" class="btn btn-white btn-lg">16GB unified memory</button>
-                    </div>
+        <section class="container-fluid">
+            <div class="d-flex">
+                <div class="col-lg-6 px-2 py-3">
+                    <img src="images/mac.png" class="d-block w-100" alt="">
                 </div>
-                <div class="pb-5">
-                    <h3>Storage</h3>
-                    <div>
-                        <button id="storage-256gb"  class="border border-1"  type="button" class="btn btn-white btn-lg">256GB SSD storage</button>
-                        <button id="storage-512gb"  class="border border-1" type="button" class="btn btn-default btn-white btn-lg">512GB SSD storage</button>
-                        <button id="storage-1tb"  class="border border-1" type="button" class="btn btn-default btn-white btn-lg">1TB SSD storage</button>
-                    </div>
-                </div>
-                <div class="pb-5">
-                    <h3>
-                        Choose your delivery option
-                    </h3>
-                    <div>
-                        <button id="delay-delivery"  class="border border-1" type="button" class="btn btn-white btn-lg">Friday,Aug 25 FREE Prime Delivery</button>
-                        <button id="fast-delivery"  class="border border-1" type="button" class="btn btn-white btn-lg"> Friday, Aug 21 Delivery charge $20</button>
-                    </div>
-                </div>
-                  <!-- configuration detail cost -->
-                <div class="cart-item    pb-5">
-                    <div class="row d-flex">
-                        <div class="col-md-8">
-                            <h5>Best Price </h5>
+                <div class="col-lg-6 px-2 py-3 ">
+                    <h1 class="pb-2">
+                        Customize your Blue 24-inch iMac with Apple M1 chip
+                    </h1>
+                    <p class="pb-5">
+                        Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7 - core GPU ,
+                        and 16 core Neutral Engine 8GB unified memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                        Magic Mouse Magic Keyboard - US English
+                    </p>
+                    <div class="pb-5">
+                        <h3>Memory</h3>
+                        <div>
+                            <button id="memory-8gb" class="border border-1" type="button"
+                                class="btn btn-white btn-lg">8GB unified memory</button>
+                            <button id="memory-16gb" class="border border-1" type="button"
+                                class="btn btn-white btn-lg">16GB unified memory</button>
                         </div>
-                       <div class="col-md-4 status">
-                        <h5>$ <span id="best-price-cost ">1299</span> </h5>
-                       </div>
                     </div>
-                    <hr>
-                    <div class="row d-flex">
-                        <div class="col-md-8">
-                            <h5>Extra Memory Cost</h5>
+                    <div class="pb-5">
+                        <h3>Storage</h3>
+                        <div>
+                            <button id="storage-256gb" class="border border-1" type="button"
+                                class="btn btn-white btn-lg">256GB SSD storage</button>
+                            <button id="storage-512gb" class="border border-1" type="button"
+                                class="btn btn-default btn-white btn-lg">512GB SSD storage</button>
+                            <button id="storage-1tb" class="border border-1" type="button"
+                                class="btn btn-default btn-white btn-lg">1TB SSD storage</button>
                         </div>
-                       <div class="col-md-4 status">
-                        <h5>$<span id="extra-memory-cost">0</span></h5>
-                       </div>
                     </div>
-                    <hr>
-                    
-                    
-                    <div class="row d-flex">
-                        <div class="col-md-8">
-                            <h5>Extra Storage Cost</h5>
+                    <div class="pb-5">
+                        <h3>
+                            Choose your delivery option
+                        </h3>
+                        <div>
+                            <button id="delay-delivery" class="border border-1" type="button"
+                                class="btn btn-white btn-lg">Friday,Aug 25 FREE Prime Delivery</button>
+                            <button id="fast-delivery" class="border border-1" type="button"
+                                class="btn btn-white btn-lg"> Friday, Aug 21 Delivery charge $20</button>
                         </div>
-                       <div class="col-md-4 status">
-                        <h5>$<span id="extra-storage-cost">0</span></h5>
                     </div>
-                    <hr>
-                    <div class="row  d-flex ">
-                      <div class="col-md-8">
-                          <h5>  Delivery charge</h5>
-                      </div>
-                      <div class="col-md-4 status"> 
-                         <h5>$<span id="delivery-charge-cost">0</span></h5> 
-                      </div>
-                    </div>
-                        <hr>
-                   <div class="row d-flex">
-                            <div class="col-md-8">
-                                <h5>  Total Price</h5>
+                    <!-- configuration detail cost -->
+                    <div class="pb-5">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <h5>Best Price </h5>
                             </div>
-                           <div class="col-md-4 status">
-                            <h5>$<span id="total-price">1299</span> 
-                            </h5>
-                           </div>
-                   </div>
-                </div>
-                <hr>
-                <div class="pt-5">
-                    <h5>Add Pomo code</h5>
-                    <div class="input-group mb-3">
-                        <input id="typed-pin" type="text"   placeholder=" "  >
-                        <button   onclick="verifyPin()"    id="apply"  class="btn btn-danger" type="button" >Apply</button>
-                      </div>
-                </div>
-                 
-            </div>
-        </div>
-         
+                            <div class="col-md-6">
+                                <h5>$<span id="best-price-cost ">1299</span> </h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Extra Memory Cost</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>$<span id="extra-memory-cost">0</span></h5>
+                            </div>
+                        </div>
+                        <hr>
 
-       </section>
-       <hr>
-       <!-- total price bottom -->
-       <section>
-           <div>
-               <h1 class="text-center"> Total:$<span id="total-price-bottom">1299 </h1>
-           </div>
-       </section>
-        
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Extra Storage Cost</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>$<span id="extra-storage-cost">0</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Delivery charge</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>$<span id="delivery-charge-cost">0</span></h5>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5>Total Price</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5>$<span id="total-price">1299</span>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="pt-5">
+                        <h5>Add Pomo code</h5>
+                        <div class="input-group mb-3">
+                            <input id="typed-pin" type="text" placeholder=" ">
+                            <button onclick="verifyPin()" id="apply" class="btn btn-danger" type="button">Apply</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+        <hr>
+        <!-- total price bottom -->
+        <section>
+            <div>
+                <h1 class="text-center"> Total:$<span id="total-price-bottom">1299 </h1>
+            </div>
+        </section>
+
     </main>
-     <!-- bootstrap script -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-     <script src="js/mac.js"></script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/mac.js"></script>
 </body>
+
 </html>
